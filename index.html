@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu-png-icon-4.jpg" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/cargreen.png" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>   
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenido a nuestra tienda</span>
+                <h1>Ofertas especiales</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id laborum unde distinctio aspernatur qui aliquam ut similique minus! Animi assumenda voluptatem quia dicta temporibus eligendi id illo ex magni fugiat.
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">Información</a>
+                    <a href="#" class="btn-1">Leer más</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/fondovariosjuegos.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>GEARS OF WAR</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/Gears-of-War-4.jpg" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>DARK SOULS</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/darksouls.webp" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>STARWARS</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/starwars.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="imagenes/outlast.jpg" alt="">
+                <div class="product-txt">
+                    <h3>OUTLAST</h3>
+                    <p>Outlast es un videojuego de terror y supervivencia en primera persona donde exploras el Manicomio Mount Massive, un lugar abandonado o al menos eso parece.</p>
+                    <P class="precio">$499.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/forza.4eeb1f6f-f279-4d5b-83b0-8fb4cc7f9aea" alt="">
+                <div class="product-txt">
+                    <h3>FORZA MOTORSPORT</h3>
+                    <p>Forza Motorsport regresa con una entrega completamente renovada. Disfruta más de 500 autos detallados, modos para un jugador y multijugador, clima dinámico, pistas vivas y un sistema de manejo realista pensado para pilotos de todos los niveles.</p>
+                    <P class="precio">$299.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/x1d_wreckfest.webp" alt="">
+                <div class="product-txt">
+                    <h3>WRECKFEST</h3>
+                    <p>Wreckfest es el juego definitivo para los amantes de la velocidad y el caos. Con un sistema de físicas realista y daños detallados, cada carrera se convierte en una batalla por sobrevivir.</p>
+                    <P class="precio">$529.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/thequarry.png" alt="">
+                <div class="product-txt">
+                    <h3>THE QUARRY</h3>
+                    <p>The Quarry es un juego de terror cinemático donde cada decisión importa. Acompaña a un grupo de jóvenes en su última noche en el campamento de verano, pero algo siniestro los acecha en el bosque. Tú decides quién vive y quién muere mientras avanzas por una historia llena de tensión, misterio y giros inesperados.</p>
+                    <P class="precio">$1799.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/ResidentEvilVillageXboxS2629_f.jpg" alt="">
+                <div class="product-txt">
+                    <h3>RESIDENT EVIL VILLAGE</h3>
+                    <p>Resident Evil Village es un juego de terror y acción donde explorarás un misterioso pueblo lleno de criaturas aterradoras. Vive una historia intensa, gráficos impresionantes y enfrentamientos llenos de adrenalina.</p>
+                    <P class="precio">$795.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/alienisolation-xb-720x926.png" alt="">
+                <div class="product-txt">
+                    <h3>ALIEN ISOLATION</h3>
+                    <p>Si te gustan los juegos de miedo con mucha tensión, Alien Isolation es ideal. Cada paso importa, cada ruido asusta y cada decisión puede salvarte o condenarte. Una experiencia única de terror y sigilo.</p>
+                    <P class="precio">$680.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/the-witcher-iii-3-wild-hunt-game-of-the-year-edition_590944.jpg" alt="">
+                <div class="product-txt">
+                    <h3>THE WITCHER 3</h3>
+                    <p>The witcher es un RPG de mundo abierto aclamado por la crítica donde juegas como Geralt de Rivia, un brujo cazador de monstruos. Recorre un continente lleno de intriga, magia y criaturas peligrosas.</p>
+                    <P class="precio">$350.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/sonic.webp" alt="">
+                <div class="product-txt">
+                    <h3>SONIC FRONTIERS</h3>
+                    <p>Sonic Frontiers es una aventura de acción y plataformas en 3D que lleva al erizo más rápido a un nuevo mundo abierto, las islas Starfall. Sonic debe explorar cinco enormes islas con biomas distintos, para recolectar las Esmeraldas del Caos y rescatar a sus amigos.</p>
+                    <P class="precio">$1019.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/Plants-vs-Zombies-Battle-for-Neighborville-Deluxe.jpg" alt="">
+                <div class="product-txt">
+                    <h3>PLANTS vs ZOMBIES </h3>
+                    <p>Plants vs. Zombies es un shooter en tercera persona lleno de acción y humor donde plantas y zombis se enfrentan en un mundo suburbano colorido y loco.</p>
+                    <P class="precio">$549.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/FORNITE.webp" alt="">
+                <div class="product-txt">
+                    <h3>FORNITE</h3>
+                    <p>Fortnite es una plataforma de juegos multijugador, incluye varios modos: el popular modo Battle Royale, donde hasta 100 jugadores luchan entre sí para sobrevivir y ser el último en pie; el modo creativo, en el que puedes diseñar tus propias islas y jugar con amigos</p>
+                    <P class="precio">$399.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/ROCKET.webp" alt="">
+                <div class="product-txt">
+                    <h3>ROCKET LEAGUE</h3>
+                    <p>Rocket League es un videojuego deportivo y de acción donde mezclas fútbol con autos propulsados por cohetes. Juega solo o con amigos, personaliza tu vehículo con una gran variedad de objetos y compite en partidos caóticos con física realista.</p>
+                    <P class="precio">$129.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/FALLGUYS.webp" alt="">
+                <div class="product-txt">
+                    <h3>FALL GUYS</h3>
+                    <p>Fall Guys es un juego multijugador tipo “party royale” lleno de carreras de obstáculos absurdas y mucha diversión. Hasta 40 jugadores compiten en rondas caóticas: debes esquivar, saltar y sobrevivir para llegar a la corona.</p>
+                    <P class="precio">$649.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/it-takes-two-xbox-cd-key-slika-187679271.jpg" alt="">
+                <div class="product-txt">
+                    <h3>IT TAKES TWO</h3>
+                    <p>It Takes Two es una aventura cooperativa única creada para dos jugadores. Juegas como Cody y May, una pareja convertida en muñecos mágicos por un hechizo, que deben trabajar juntos para superar retos muy creativos y emocionales.</p>
+                    <P class="precio">$239.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="13">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/sea.webp" alt="">
+                <div class="product-txt">
+                    <h3>SEA OF THIEVES</h3>
+                    <p>Sea of Thieves es una aventura de piratas en mundo abierto en la que tú y tu tripulación navegan por mares peligrosos en busca de tesoros, criaturas míticas y conflictos con otras tripulaciones.</p>
+                    <P class="precio">$1099.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="14">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/CUPHEAD.jpg" alt="">
+                <div class="product-txt">
+                    <h3>CUPHEAD</h3>
+                    <p>Cuphead es un juego de acción tipo “run and gun” con un estilo visual inspirado en los dibujos animados de los años 30.</p>
+                    <P class="precio">$283.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="15">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/HOLLOW.webp" alt="">
+                <div class="product-txt">
+                    <h3>HOLLOW KNIGHT</h3>
+                    <p>Hollow Knight es un metroidvania en 2D, en el que te conviertes en un caballero insectoide sin nombre que explora las profundidades del reino abandonado de Hallownest, enfrentando enemigos, descubriendo secretos y desbloqueando nuevas habilidades.</p>
+                    <P class="precio">$475.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="16">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/luckys.jpg" alt="">
+                <div class="product-txt">
+                    <h3>SUPER LUCKY'S TALE</h3>
+                    <p>Super Lucky’s Tale es un juego de plataformas 3D adorable y accesible, ideal para jugadores de todas las edades. Sigues a Lucky, un zorro optimista, en su misión para rescatar el mágico Libro de las Eras de las garras del malvado Jinx.</p>
+                    <P class="precio">399.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="17">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/OVERWATCH.webp" alt="">
+                <div class="product-txt">
+                    <h3>OVERWATCH 2</h3>
+                    <p>Overwatch 2 es un shooter de héroes por equipos, siempre activo y lleno de acción. Reúne a tus amigos, elige entre más de 40 héroes y participa en intensas batallas 5 vs 5 o modos competitivos.</p>
+                    <P class="precio">$797.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="18">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+             <div class="box">
+                <img src="imagenes/unravel.webp" alt="">
+                <div class="product-txt">
+                    <h3>UNRAVEL</h3>
+                    <p>Unravel es un juego de plataformas y puzles en el que controlas a Yarny, una pequeña criatura hecha de lana roja.</p>
+                    <P class="precio">$399.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="19">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/sunset.jpg" alt="">
+                <div class="product-txt">
+                    <h3>SUNSET OVERDRIVE</h3>
+                    <p>Sunset Overdrive es un juego de acción-aventura en mundo abierto, creado por Insomniac Games, con un estilo irreverente, dinámico y lleno de humor.</p>
+                    <P class="precio">$796.00</P>
+                    <a href="#" class="agregar-carrito btn-3" data-id="20">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-2" id="load-more">Cargar más</div>
+    </main>
+    <section class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>¿Qué opinan nuestros clientes?</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    "Excelente tienda, siempre encuentro los juegos que quiero y los precios son súper competitivos. La atención es rápida y amable, ¡100% recomendable!".
+                </p>
+                <img src="imagenes/3-ESTRELLAS.png" alt="">
+                <h4>Juan P.</h4>
+            </div>
+        </div>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    "Me gustó mucho la variedad de juegos, desde los clásicos hasta los más nuevos. Solo me gustaría que agregaran más imágenes o videos de los productos, pero en general, muy bien."
+                </p>
+                <img src="imagenes/3-ESTRELLAS.png" alt="">
+                <h4>María G.</h4>
+            </div>
+        </div>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    "La mejor tienda de videojuegos que he encontrado. Me ayudaron a elegir la edición correcta y la compra fue rápida y sencilla."
+                </p>
+                <img src="imagenes/3-ESTRELLAS.png" alt="">
+                <h4>Carlos R.</h4>
+            </div>
+        </div>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    "Muy buenos precios y atención cercana. Compré varios juegos digitales y llegaron sin problemas. Solo desearía que hubiera más ofertas de temporada."
+                </p>
+                <img src="imagenes/3-ESTRELLAS.png" alt="">
+                <h4>Sofía L.</h4>
+            </div>
+        </div>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    "¡Me encanta! La tienda tiene juegos para todas las plataformas y siempre me dan recomendaciones útiles según lo que me gusta. Volveré a comprar seguro."
+                </p>
+                <img src="imagenes/3-ESTRELLAS.png" alt="">
+                <h4>Miguel T.</h4>
+            </div>
+        </div>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    "La tienda es confiable y los productos llegan rápido. Me gustaría que añadieran reseñas de los juegos por otros clientes, eso ayudaría a decidir mejor."
+                </p>
+                <img src="imagenes/3-ESTRELLAS.png" alt="">
+                <h4>Valentina S.</h4>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-content container">
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+         <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+         <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+         <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+    </footer>
+   <script src="script.js"></script> 
+</body>
+</html>
